@@ -7,6 +7,7 @@ export default function asPage ({ title: _title }) {
         <head>
           <title>domachine | {_title}</title>
           <meta name='msapplication-TileImage' content='/rocket-144-190970.png' />
+          <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700,300' rel='stylesheet' type='text/css' />
           <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css' rel='stylesheet' />
           <link href='/bundle.css' rel='stylesheet' />
           <link rel='icon' type='image/x-icon' href='/favicon.ico' />
