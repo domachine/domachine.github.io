@@ -14,8 +14,8 @@ function Index () {
         </p>
         <br />
         <p>
-          <a href='https://github.com/domachine'><i className='fa fa-twitter fa-2x' /></a>
-          &nbsp;<a href='https://github.com/ddomachine'><i className='fa fa-github fa-2x' /></a>
+          <a href='https://twitter.com/ddomachine'><i className='fa fa-twitter fa-2x' /></a>
+          &nbsp;<a href='https://github.com/domachine'><i className='fa fa-github fa-2x' /></a>
         </p>
       </div>
     </div>
