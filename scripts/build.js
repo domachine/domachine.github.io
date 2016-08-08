@@ -1,5 +1,6 @@
 'use strict'
 
-const { buildAllPages } = require('./lib/build')
+const { buildAllPages, buildCSS } = require('./lib/build')
 
 buildAllPages()
+buildCSS()

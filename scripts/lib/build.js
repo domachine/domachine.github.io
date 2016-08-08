@@ -5,11 +5,13 @@ const { basename, dirname, join, relative } = require('path')
 const { renderToStaticMarkup } = require('react-dom/server')
 const React = require('react')
 const glob = require('glob')
+const concat = require('concat-files')
 require('babel-register')()
 
 module.exports = {
   buildAllPages,
-  buildPage
+  buildPage,
+  buildCSS
 }
 
 function buildAllPages () {
@@ -43,4 +45,10 @@ function buildPage (input) {
       console.log(`    Wrote ${file}`)
     }
   )
+}
+
+function buildCSS () {
+  concat(glob.sync('src/styles/**/*.css'), 'bundle.css', () => {
+    console.log('    Wrote ./bundle.css')
+  })
 }
