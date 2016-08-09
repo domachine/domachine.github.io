@@ -19,8 +19,15 @@
 }
 .toolbar {
   position: fixed;
-  bottom: 19px;
+  bottom: 0;
+  padding: 35px 0 19px;
   width: 100%;
+  background: linear-gradient(white, #e0716b);
+  color: white;
+}
+
+.toolbar a {
+  color: white;
 }
 
 .toolbar__line {
