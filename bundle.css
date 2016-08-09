@@ -1,17 +1,23 @@
+.cols {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cols__half {
+  max-width: 50%;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto 170px;
+}
 .dialog {
   position: absolute;
-  width: 500px;
+  width: 400px;
   height: 200px;
   top: 40%;
   margin-top: -100px;
   left: 50%;
-  margin-left: -250px;
-}
-
-.dialog {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin-left: -200px;
 }
 
 .dialog__inner {
@@ -19,6 +25,24 @@
 }
 .social-icon {
   color: #e0716b;
+}
+.testimonial {
+  font-size: 0.7em;
+  text-align: center;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.testimonial__img {
+  border-radius: 25px;
+  border: solid 1px #e0716b;
+  max-width: 50%;
+  box-sizing: border-box;
+}
+
+.testimonial__body {
+  margin-top: 15px;
+  font-style: italic;
 }
 .toolbar {
   position: fixed;
@@ -45,8 +69,18 @@ body {
   font-size: 1.1em;
 }
 
+h1 {
+  font-family: Lato, Helvetica;
+  font-weight: lighter;
+  text-align: center;
+}
+
 a {
   color: black;
+}
+
+.page-content {
+  margin-top: 50px;
 }
 /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
 

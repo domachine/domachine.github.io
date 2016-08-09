@@ -3,6 +3,16 @@ body {
   font-size: 1.1em;
 }
 
+h1 {
+  font-family: Lato, Helvetica;
+  font-weight: lighter;
+  text-align: center;
+}
+
 a {
   color: black;
+}
+
+.page-content {
+  margin-top: 50px;
 }

@@ -1,17 +1,11 @@
 .dialog {
   position: absolute;
-  width: 500px;
+  width: 400px;
   height: 200px;
   top: 40%;
   margin-top: -100px;
   left: 50%;
-  margin-left: -250px;
-}
-
-.dialog {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin-left: -200px;
 }
 
 .dialog__inner {

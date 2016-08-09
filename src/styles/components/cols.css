@@ -1,0 +1,8 @@
+.cols {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cols__half {
+  max-width: 50%;
+}
