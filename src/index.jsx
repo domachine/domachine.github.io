@@ -12,11 +12,6 @@ function Index () {
           <a href='https://nodejs.org'>node.js</a> and&nbsp;
           <a href='https://facebook.github.io/react'>react</a>.
         </p>
-        <br />
-        <p>
-          <a href='https://twitter.com/ddomachine'><i className='fa fa-twitter fa-2x' /></a>
-          &nbsp;<a href='https://github.com/domachine'><i className='fa fa-github fa-2x' /></a>
-        </p>
       </div>
     </div>
   )

@@ -1,10 +1,14 @@
 .toolbar {
   position: fixed;
   bottom: 19px;
+  width: 100%;
+}
+
+.toolbar__line {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  padding: 10px 0;
 }
 
 .toolbar__link {

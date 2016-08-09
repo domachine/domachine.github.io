@@ -23,13 +23,19 @@ export default function asPage ({ title: _title }) {
         <body>
           <Child {... props} />
           <div className='toolbar'>
-            <a href='/' className='toolbar__link'>
-              Home
-            </a>
-            |
-            <a href='/impressum.html' className='toolbar__link'>
-              Impressum
-            </a>
+            <div className='toolbar__line'>
+              <a href='https://twitter.com/ddomachine'><i className='fa fa-twitter fa-2x' /></a>
+              &nbsp;<a href='https://github.com/domachine'><i className='fa fa-github fa-2x' /></a>
+            </div>
+            <div className='toolbar__line'>
+              <a href='/' className='toolbar__link'>
+                Home
+              </a>
+              |
+              <a href='/impressum.html' className='toolbar__link'>
+                Impressum
+              </a>
+            </div>
           </div>
         </body>
       </html>

@@ -12,11 +12,6 @@ function Index () {
           Anne-Frank-Weg 14<br />
           89075 Ulm
         </p>
-        <br />
-        <p>
-          <a href='https://twitter.com/ddomachine'><i className='fa fa-twitter fa-2x' /></a>
-          &nbsp;<a href='https://github.com/domachine'><i className='fa fa-github fa-2x' /></a>
-        </p>
       </div>
     </div>
   )
