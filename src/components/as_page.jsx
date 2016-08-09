@@ -24,8 +24,13 @@ export default function asPage ({ title: _title }) {
           <Child {... props} />
           <div className='toolbar'>
             <div className='toolbar__line'>
-              <a href='https://twitter.com/ddomachine'><i className='fa fa-twitter fa-2x' /></a>
-              &nbsp;<a href='https://github.com/domachine'><i className='fa fa-github fa-2x' /></a>
+              <a href='https://twitter.com/ddomachine' className='social-icon'>
+                <i className='fa fa-twitter fa-2x' />
+              </a>
+              &nbsp;
+              <a href='https://github.com/domachine' className='social-icon'>
+                <i className='fa fa-github fa-2x' />
+              </a>
             </div>
             <div className='toolbar__line'>
               <a href='/' className='toolbar__link'>

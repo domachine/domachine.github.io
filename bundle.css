@@ -17,16 +17,15 @@
 .dialog__inner {
   text-align: center;
 }
+.social-icon {
+  color: #e0716b;
+}
 .toolbar {
   position: fixed;
   bottom: 0;
   padding: 35px 0 19px;
   width: 100%;
   background: linear-gradient(white, #e0716b);
-  color: white;
-}
-
-.toolbar a {
   color: white;
 }
 
@@ -39,6 +38,7 @@
 
 .toolbar__link {
   padding: 0px 20px;
+  color: white;
 }
 body {
   font-family: Source Code Pro, monospace;

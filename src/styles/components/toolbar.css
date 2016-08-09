@@ -7,10 +7,6 @@
   color: white;
 }
 
-.toolbar a {
-  color: white;
-}
-
 .toolbar__line {
   display: flex;
   align-items: center;
@@ -20,4 +16,5 @@
 
 .toolbar__link {
   padding: 0px 20px;
+  color: white;
 }
