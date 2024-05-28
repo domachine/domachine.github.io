@@ -1,0 +1,23 @@
+@layer base {
+  :root {
+    --font-sans: Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans',
+      Arial, sans-serif;
+    --cyan-100: rgb(207 250 254);
+    --gray-900: rgb(17 24 39);
+  }
+
+  body {
+    color: var(--gray-900);
+    font-family: var(--font-sans);
+    margin: 0;
+
+    > header {
+      padding-inline: 1rem;
+      padding-block-start: 1rem;
+    }
+
+    > main {
+      padding-inline: 1rem;
+    }
+  }
+}

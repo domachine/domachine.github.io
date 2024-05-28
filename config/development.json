@@ -1,0 +1,6 @@
+{
+  "website": {
+    "port": 3003,
+    "baseUrl": "http://localhost:3003"
+  }
+}
